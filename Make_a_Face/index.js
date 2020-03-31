@@ -4,7 +4,7 @@ const height = + svg.attr('height');
 const width = + svg.attr('width');
 
 const g = svg.append('g')
-    .attr('transform', `translate(${width / 2}, ${height / 2})`);
+    .attr('transform', `translate(${width / 2}, ${height / 2})`);    // use `` ${} to add variables
 
 const face = g.append('circle')
     .attr('r', height / 2 - 10)
@@ -44,6 +44,14 @@ eyebrowsG
 
 eyesG.transition()
     .delay(3600)
+    /* .delay(function(d, i) { return i * 50; }) 另一种写法，这里的d和i是什么意思，为什么改i的值没有变化
+        “When a specified transition event is dispatched on a selected node, 
+        the specified listener will be invoked for the transitioning element, 
+        being passed the current datum d and index i, with the this context as the current DOM element. 
+        Listeners always see the latest datum for their element, 
+        but the index is a property of the selection and is fixed when the listener is assigned; 
+        to update the index, re-assign the listener.” ？？？
+     */
     .on("start", function repeat() {
         d3.active(this)
             .style("fill", "red")
@@ -52,7 +60,7 @@ eyesG.transition()
         .transition()
             .style("fill", "blue")
         .transition()
-            .on("start", repeat);
+            .on("start", repeat);    // 如何调节repeat的速度？
     });
 
 const leftEyebrow = eyebrowsG
@@ -66,12 +74,15 @@ const rightEyebrow = eyebrowsG
         .attr('x', eyeXSpacing - eyebrowWidth / 2)
         .attr('width', eyebrowWidth)
         .attr('height', eyebrowHeight);
-    /*  .transition().duration(2000)
+     /* 直接用于单个元素的transition写法：x，y
+        .transition().duration(2000)
             .attr('y', eyebrowYOffset - 40)
         .transition().duration(2000)
-            .attr('y', eyebrowYOffset)*/
+            .attr('y', eyebrowYOffset)
+     */ 
 
 const mouth = g.append('path')
+    // arc shape in d3
     .attr('d', d3.arc()({
         innerRadius: 160,
         outerRadius: 180,
