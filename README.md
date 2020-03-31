@@ -1,6 +1,6 @@
 # Learn_D3.js
 
-This the file recording my progress of learning d3.js following Curran Kelleher's course: https://youtu.be/_8V5o2UHG0E
+Record my progress of learning d3.js following Curran Kelleher's course: https://youtu.be/_8V5o2UHG0E
 
 Index:
 
