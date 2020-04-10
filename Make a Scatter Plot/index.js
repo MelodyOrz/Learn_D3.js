@@ -6,7 +6,7 @@ const height = +svg.attr('height');
 const render = data => {
     const xValue = d => d.horsepower;
     const yValue = d => d.weight;
-    //mpg,cylinders,displacement,horsepower,weight,acceleration,year,origin,name
+    // try all the data available: mpg,cylinders,displacement,horsepower,weight,acceleration,year,origin,name
     
     const xAxisLabel = 'horsepower';
     const yAxisLabel = 'weight';
@@ -19,7 +19,7 @@ const render = data => {
     const innerHeight = height - margin.top - margin.bottom;
 
     const xScale = d3.scaleLinear()
-        //.domain([d3.min(data, xValue), d3.max(data, xValue)])
+        // another way to write next line '.domain([d3.min(data, xValue), d3.max(data, xValue)]) '
         .domain(d3.extent(data, xValue))
         .range([0, innerWidth])
         .nice();
@@ -33,7 +33,7 @@ const render = data => {
         .attr('transform', `translate(${margin.left}, ${margin.top})`);
 
     const yAxis = d3.axisLeft(yScale)
-        .tickPadding(15) //设置label和tick之间的间距
+        .tickPadding(15)    // set space between 'label' and 'tick'
         .tickSize(-innerWidth);
 
     const yAxisG = g.append('g').call(yAxis);
@@ -50,7 +50,7 @@ const render = data => {
         .text(yAxisLabel);
 
     const xAxis = d3.axisBottom(xScale)
-        .tickPadding(15) //设置label和tick之间的间距
+        .tickPadding(15)    // set space between 'label' and 'tick'
         .tickSize(-innerHeight);
 
     const xAxisG = g.append('g').call(xAxis)
