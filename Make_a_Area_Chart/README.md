@@ -1,0 +1,1 @@
+This area chart shows world population during 1950-2030. The data comes from [United Nations - World Population Prospects 2019](https://population.un.org/wpp/Download/Standard/CSV/).
