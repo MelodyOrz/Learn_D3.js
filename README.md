@@ -12,3 +12,7 @@ Index:
 4.Make a Line Chart
 
 5.Make an Area Chart
+
+6.General Update Pattern
+
+7.Marks & Channels
