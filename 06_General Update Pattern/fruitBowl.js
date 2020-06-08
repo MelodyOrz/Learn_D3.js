@@ -6,16 +6,28 @@ const radiusScale = d3.scaleOrdinal()
     .domain(['apple', 'lemon'])
     .range([50, 30]);
 
+const xPosition = (d, i) => i * 120 + 60;
+
 export const fruitBowl = (selection, props) => {
     const { fruits, height } = props;
+    
     const circles = selection.selectAll('circle')
-        .data(fruits);
+        .data(fruits, d => d.id);
+
     circles
         .enter().append('circle')
-            .attr('cx', (d, i) => i * 120 + 60)
+            .attr('cx', xPosition)
             .attr('cy', height / 2)
+            .attr('r', 0)    //set original radius for the transition
         .merge(circles)
             .attr('fill', d => colorScale(d.type))
+        .transition().duration(1000)    //add transition
+            .attr('cx', xPosition)    //add move transition
             .attr('r', d => radiusScale(d.type));
-    circles.exit().remove();
+
+    circles
+        .exit()
+        .transition().duration(1000)    //add transition
+            .attr('r', 0)
+        .remove();
 };
