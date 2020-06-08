@@ -2,8 +2,12 @@ import { fruitBowl } from './fruitBowl.js';
 
 const svg = d3.select('svg');
 
-const makeFruit = type => ({ type });
-const fruits = d3.range(5)
+const makeFruit = type => ({ 
+    type,
+    id: Math.random()
+});
+
+let fruits = d3.range(5)
     .map(() => makeFruit('apple'));
 
 const render = () => {
@@ -26,3 +30,9 @@ setTimeout(() => {
     fruits[2].type = 'lemon';
     render();
 }, 2000);
+
+// Eat another apple.
+setTimeout(() => {
+    fruits = fruits.filter((d, i) => i !== 1);    //filter elements except the second one
+    render();
+}, 3000);
