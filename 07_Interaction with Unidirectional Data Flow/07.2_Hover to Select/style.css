@@ -1,0 +1,14 @@
+body {
+    margin: 40px;
+    overflow: hidden;
+}
+
+text {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    text-anchor: middle;
+}
+
+rect {
+    fill: #faebeb
+}
