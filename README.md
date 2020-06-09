@@ -15,4 +15,5 @@ Index:
 
 6.General Update Pattern
 
-7.Marks & Channels
+7.Interaction with Unidirectional Data Flow
+
