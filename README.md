@@ -15,6 +15,10 @@ Index:
 
 6.General Update Pattern
 
-7.Interaction with Unidirectional Data Flow
+7.Interaction with Unidirectional Data 
+7.1.Click to Select
+7.2.Hover to Select
 
-8.Making a World Map
+8.Make a World Map
+
+9.Make an Interactive World Map
