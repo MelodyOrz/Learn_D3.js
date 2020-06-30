@@ -1,0 +1,15 @@
+body {
+    margin: 40px;
+    overflow: hidden;
+}
+
+.tick text {
+    font-size: 1.7 em;
+    fill: #635F5D;
+    font-family: sans-serif;  
+}
+
+.tick circle {
+    stroke: black;
+    stroke-opacity: 0.5;
+}
