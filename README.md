@@ -26,21 +26,21 @@ Record my progress of learning d3.js following [Curran Kelleher's 13-hour video 
 
 9. Make an Interactive World Map
 
-10.Tree Visualization of World Countries
+10. Tree Visualization of World Countries
 
-11.Color & Size Legend
+11. Color & Size Legend
 
-12.Make an Interactive World Map
+12. Make an Interactive World Map
 
-13.Add Filtering to the World Map
+13. Add Filtering to the World Map
 
-14.Make a Scatter Plot with Menus 
+14. Make a Scatter Plot with Menus 
 
-15.Circles on a Map
+15. Circles on a Map
 
-16.Line Chart with Multiple Lines
+16. Line Chart with Multiple Lines
 
-17.Melting Data for Multiple Lines
+17. Melting Data for Multiple Lines
 
-18.Selecting a Year on a Line Chart
+18. Selecting a Year on a Line Chart
 
