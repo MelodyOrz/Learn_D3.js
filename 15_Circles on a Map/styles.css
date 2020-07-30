@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+.sphere{
+    fill: #dfe5ed;
+}
+
+.country {
+    stroke: black;
+    stroke-width: 0.1px;
+}
+
+.country:hover {
+    fill: #e0de34;
+}
+
+.tick text {
+    font-size: 1.1em;
+    fill: rgb(56, 48, 44);
+    font-family: sans-serif;  
+}
+
+.tick circle, .country-circle {
+    fill: #e0de34;
+    fill-opacity: 0.6;
+    stroke: black;
+    stroke-width: 0.3;
+    pointer-events: none;
+}
+
+.legend-title {
+    font-size: 1.8em;
+    fill: rgb(56, 48, 44);
+    font-family: sans-serif;  
+}

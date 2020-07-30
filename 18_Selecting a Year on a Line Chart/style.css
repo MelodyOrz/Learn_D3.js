@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+.line-path {
+    fill: none;
+    stroke-width: 4;
+    stroke-linejoin: round;    /* make the line joints smooth */
+    stroke-linecap: round;    /* make the start of the line round */
+    mix-blend-mode: multiply; /* make the color of the lines mixed when overlapping */
+}
+
+text {
+    font-size: 3em;
+    font-family: sans-serif;
+}
+
+.tick text {
+    font-size: 0.9rem;
+    fill: #635F5D;
+}
+
+.tick line {
+    stroke: #C0C0BB;
+}
+
+.axis-label {
+    font-size: 1.8em;
+    fill: #8E8883;
+}
+
+.title {
+    font-size: 1.6em;
+    fill: #635F5D;
+}
+
+.selectedYearLine {
+    stroke: black;
+    stroke-width: 5;
+}
