@@ -6,7 +6,7 @@ Record my progress of learning d3.js following [Curran Kelleher's 13-hour video 
 
 ## Index:
 
-1. Make a Face
+1. [Make a Face](https://melodyorz.github.io/Learn_D3.js/01_Make%20a%20Face/Index.html)
 
 2. Make a Barchart
 
