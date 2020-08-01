@@ -20,9 +20,8 @@ Record my progress of learning d3.js following [Curran Kelleher's 13-hour video 
 
 7. Interaction with Unidirectional Data Flow
     * [Click to Select](https://melodyorz.github.io/Learn_D3.js/07_Interaction_with_Unidirectional_Data_Flow/07.1_Click_to_Select/index.html)
-    * [Hover to Select](https://melodyorz.github.io/Learn_D3.js/07_Interaction_with_Unidirectional_Data_Flow/07.2_Hover_to_Select/index.html)
+    * [Hover to Select](https://melodyorz.github.io/Learn_D3.js/07_Interaction_with_Unidirectional_Data_Flow/07.2_Hover_to_Select/index.html)<br />
 
-<br />
 8. [World Map](https://melodyorz.github.io/Learn_D3.js/08_World_Map/index.html)
 
 9. [Interactive World Map](https://melodyorz.github.io/Learn_D3.js/09_Interactive_World_Map/index.html)
