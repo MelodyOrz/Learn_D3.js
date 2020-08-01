@@ -45,7 +45,7 @@ const render = () => {
         circleRadius: 8,
         margin: { 
             top: 120, 
-            right: 150, 
+            right: 360, 
             bottom: 80, 
             left: 120 
         },
@@ -58,7 +58,7 @@ const render = () => {
     });
     
     colorLegendG
-        .attr('transform', `translate(840, 162)`)
+        .attr('transform', `translate(950, 162)`)
         .call(colorLegend, {
             colorScale,
             circleRadius: 6,

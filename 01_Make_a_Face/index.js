@@ -8,8 +8,8 @@ const g = svg.append('g')
 
 const face = g.append('circle')
     .attr('r', height / 2 - 10)
-    .attr('fill', 'yellow')
-    .attr('stroke', 'black')
+    .attr('fill', '#FFCE47')
+    .attr('stroke', '#BB6D14')
     .attr('stroke-width', 3);
 
 const eyeXSpacing = 100;
@@ -21,7 +21,7 @@ const eyebrowYOffset = - 60;
 
 const eyesG = g.append('g')
     .attr('transform', `translate(0, ${eyeYOffset})`)
-    .attr('fill', 'black')
+    .attr('fill', '#7B4204')
 
 const leftEye = eyesG.append('circle')
     .attr('r', eyeRadius)
@@ -89,3 +89,4 @@ const mouth = g.append('path')
         startAngle: Math.PI * 3/2,
         endAngle: Math.PI / 2
     }))
+    .attr('fill', '#E6460E');
