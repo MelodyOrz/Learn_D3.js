@@ -7,11 +7,9 @@ const render = data => {
     const xValue = d => d.year;
     const yValue = d => d.population;
     
-    const xAxisLabel = 'year';
-    const yAxisLabel = 'population';
+    const xAxisLabel = 'YEAR';
+    const yAxisLabel = 'POPULATION';
     const title = 'World Population';
-
-    const circleRadius = 8;
 
     const margin = { top: 120, right: 30, bottom: 80, left: 150 };
     const innerWidth = width - margin.left - margin.right;
@@ -37,7 +35,7 @@ const render = data => {
 
     const yAxis = d3.axisLeft(yScale)
         .tickFormat(yAxisTickFormat)
-        .tickPadding(15) //设置label和tick之间的间距
+        .tickPadding(8) //设置label和tick之间的间距
         .tickSize(-innerWidth);
 
     const yAxisG = g.append('g').call(yAxis);
@@ -47,7 +45,7 @@ const render = data => {
     yAxisG.append('text')
         .attr('class', 'axis-label')
         .attr('text-anchor', "middle")  
-        .attr('y', - 70)
+        .attr('y', - 45)
         .attr('x', - innerHeight / 2)
         .attr('transform', 'rotate(-90)')
         .attr('fill', 'black')
@@ -65,7 +63,7 @@ const render = data => {
 
     xAxisG.append('text')
         .attr('class', 'axis-label')
-        .attr('y', 70)
+        .attr('y', 60)
         .attr('x', innerWidth / 2)
         .attr('fill', 'black')
         .text(xAxisLabel);
@@ -84,7 +82,7 @@ const render = data => {
         .attr('class', 'title')
         .attr('text-anchor', "middle")  
         .attr('x', innerWidth/2)
-        .attr('y', -30)
+        .attr('y', -35)
         .text(title);
 };
 

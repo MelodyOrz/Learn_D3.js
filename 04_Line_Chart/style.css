@@ -16,7 +16,7 @@ text {
 }
 
 .tick text {
-    font-size: 2em;
+    font-size: 1.4em;
     fill: #635F5D;
 }
 
@@ -25,11 +25,11 @@ text {
 }
 
 .axis-label {
-    font-size: 2.8em;
+    font-size: 1.8em;
     fill: #8E8883;
 }
 
 .title {
-    font-size: 3em;
+    font-size: 2em;
     fill: #635F5D;
 }

@@ -7,8 +7,8 @@ const render = data => {
     const xValue = d => d.timestamp;
     const yValue = d => d.temperature;
     
-    const xAxisLabel = 'timestamp';
-    const yAxisLabel = 'temperature';
+    const xAxisLabel = 'TIMESTAMP';
+    const yAxisLabel = 'TEMPERATURE';
     const title = 'A Week in San Francisco';
 
     const circleRadius = 8;
@@ -42,7 +42,7 @@ const render = data => {
     yAxisG.append('text')
         .attr('class', 'axis-label')
         .attr('text-anchor', "middle")  
-        .attr('y', - 70)
+        .attr('y', - 50)
         .attr('x', - innerHeight / 2)
         .attr('transform', 'rotate(-90)')
         .attr('fill', 'black')
@@ -60,7 +60,7 @@ const render = data => {
 
     xAxisG.append('text')
         .attr('class', 'axis-label')
-        .attr('y', 70)
+        .attr('y', 60)
         .attr('x', innerWidth / 2)
         .attr('fill', 'black')
         .text(xAxisLabel);

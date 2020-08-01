@@ -1,6 +1,6 @@
-import { loadAndProcessData, parseYear } from './loadAndProcessData.js.js.js.js';
-import { colorLegend } from './colorLegend.js.js.js.js';
-import { lineChart } from './lineChart.js.js.js.js';
+import { loadAndProcessData, parseYear } from './loadAndProcessData.js.js.js';
+import { colorLegend } from './colorLegend.js.js.js';
+import { lineChart } from './lineChart.js.js.js';
 
 const svg = d3.select('svg');
 const lineChartG = svg.append('g');

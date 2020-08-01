@@ -14,18 +14,18 @@ text {
 
 .title {
     font-weight: 340;
-    font-size: 2.3em;
+    font-size: 2.1em;
     fill: #635F5D;
 }
 
 .tick text {
-    font-size: 1.6em;
+    font-size: 1.5em;
     fill: #635F5D;
 }
 
 .axis-label {
     font-weight: 350;
-    font-size: 2.4em;
+    font-size: 1.6em;
     fill: #8E8883;
 }
 

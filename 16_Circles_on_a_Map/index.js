@@ -1,5 +1,5 @@
-import { loadAndProcessData } from './loadAndProcessData.js';
-import { sizeLegend } from './sizeLegend.js';
+import { loadAndProcessData } from './loadAndProcessData.js.js';
+import { sizeLegend } from './sizeLegend.js.js';
 
 const svg = d3.select('svg');
 const g = svg.append('g');

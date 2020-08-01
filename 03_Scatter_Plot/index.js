@@ -8,8 +8,8 @@ const render = data => {
     const yValue = d => d.weight;
     // try all the data available: mpg,cylinders,displacement,horsepower,weight,acceleration,year,origin,name
     
-    const xAxisLabel = 'horsepower';
-    const yAxisLabel = 'weight';
+    const xAxisLabel = 'HOUSEPOWER';
+    const yAxisLabel = 'WEIGHT';
     const title = 'Cars: Horsepower vs. Weight';
 
     const circleRadius = 8;
@@ -43,7 +43,7 @@ const render = data => {
     yAxisG.append('text')
         .attr('class', 'axis-label')
         .attr('text-anchor', "middle")  
-        .attr('y', - 100)
+        .attr('y', - 75)
         .attr('x', - innerHeight / 2)
         .attr('transform', 'rotate(-90)')
         .attr('fill', 'black')
@@ -60,7 +60,7 @@ const render = data => {
 
     xAxisG.append('text')
         .attr('class', 'axis-label')
-        .attr('y', 70)
+        .attr('y', 60)
         .attr('x', innerWidth / 2)
         .attr('fill', 'black')
         .text(xAxisLabel);

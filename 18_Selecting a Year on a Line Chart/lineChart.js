@@ -1,4 +1,4 @@
-import { parseYear } from './loadAndProcessData.js.js.js.js';
+import { parseYear } from './loadAndProcessData.js.js.js';
 
 export const lineChart = (selection, props) => {
     const {

@@ -19,7 +19,7 @@ const render = data => {
         .domain(data.map(yValue))
         .range([0, innerHeight])
         // add space between bars
-        .padding(0.1);    // 增加柱形之间的间隔
+        .padding(0.2);    // 增加柱形之间的间隔
 
     const g = svg.append('g')
         .attr('transform', `translate(${margin.left}, ${margin.top})`);
@@ -45,7 +45,7 @@ const render = data => {
     const xAxis = d3.axisBottom(xScale)
         // .tickFormat(d3.format('~s')); 改成下面const的写法以更方便地定制format
         .tickFormat(xAxisTickFormat)
-        .tickPadding([5]) //设置label和tick之间的间距
+        .tickPadding([8]) //设置label和tick之间的间距
         .tickSize(-innerHeight);
 
     const xAxisG = g.append('g').call(xAxis)
@@ -55,10 +55,10 @@ const render = data => {
 
     xAxisG.append('text')
         .attr('class', 'axis-label')
-        .attr('y', 50)
-        .attr('x', innerWidth / 2)
+        .attr('y', 48)
+        .attr('x', 47)
         .attr('fill', 'black')
-        .text('population');
+        .text('POPULATION');
 
     g.selectAll('rect').data(data)
         .enter().append('rect')
