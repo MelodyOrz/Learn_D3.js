@@ -1,5 +1,5 @@
-import { dropdownMenu } from './dropdownMenu.js.js.js';
-import { scatterPlot } from './scatterPlot.js.js.js';
+import { dropdownMenu } from './dropdownMenu.js';
+import { scatterPlot } from './scatterPlot.js';
 
 const svg = d3.select('svg');
 

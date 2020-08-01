@@ -49,10 +49,11 @@ export const scatterPlot = (selection, props) => {
             .selectAll('.domain').remove();
 
     const yAxisLabelText = yAxisGEnter
+    yAxisLabelText
         .append('text')
             .attr('class', 'axis-label')
             .attr('text-anchor', "middle")  
-            .attr('y', - 90)
+            .attr('y', - 68)
             .attr('transform', 'rotate(-90)')
             .attr('fill', 'black')
         .merge(yAxisG.select('.axis-label'))
