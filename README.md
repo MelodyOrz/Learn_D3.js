@@ -3,6 +3,7 @@ D3 is a JavaScript library for visualizing data with HTML, SVG, and CSS. You can
 This repository is where I record my process of learning d3 following [Curran Kelleher's 13-hour video course](https://youtu.be/_8V5o2UHG0E).
 
 Here's a quick view of what I made during the course and you can click the index links to see the html showcase of each one.
+![Demo](https://melodyorz.github.io/Learn_D3.js/Learn_D3.js_demo.gif)
 
 
 ## Index:
@@ -55,7 +56,7 @@ Here's a quick view of what I made during the course and you can click the index
 
 * [A Quick Introduction to D3](https://observablehq.com/@mitvis/introduction-to-d3)
 
-* [A javascript intro course](https://www.codecademy.com/learn/introduction-to-javascript) I took before this one.
+* [A javascript intro course](https://www.codecademy.com/learn/introduction-to-javascript) I took before this one
 
 * Sunlight Foundation's [Data Visualization Style Guidelines](https://github.com/amycesal/dataviz-style-guide/blob/master/Sunlight-StyleGuide-DataViz.pdf)
 
