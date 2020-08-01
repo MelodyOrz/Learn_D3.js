@@ -6,9 +6,9 @@ Record my progress of learning d3.js following [Curran Kelleher's 13-hour video 
 
 ## Index:
 
-1. [Make a Face](https://melodyorz.github.io/Learn_D3.js/01_Make_a_Face/Index.html)
+1. [Make a Face](https://melodyorz.github.io/Learn_D3.js/01_Make_a_Face/index.html)
 
-2. [Bar Chart](https://melodyorz.github.io/Learn_D3.js/02_Bar_Chart/Index.html)
+2. [Bar Chart](https://melodyorz.github.io/Learn_D3.js/02_Bar_Chart/index.html)
 
 3. [Scatter Plot](https://melodyorz.github.io/Learn_D3.js/03_Scatter_Plot/Index.html)
 
