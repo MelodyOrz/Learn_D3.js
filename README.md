@@ -50,13 +50,13 @@ Here's a quick view of what I made during the course and you can click the index
 <br />
 
 ## Useful References:
-* [Full Course Information](https://curran.github.io/dataviz-course-2018/):
+* Curran Kelleher's [Full Course](https://curran.github.io/dataviz-course-2018/) Information:
 [Syllabus](https://curran.github.io/dataviz-course-2018/syllabus.html) | [Videos](https://www.youtube.com/watch?v=4e3NF8ez95w&list=PL9yYRbwpkykvOXrZumtZWbuaXWHvjD8gi) | [Code](https://vizhub.com/curran) | [Slides](https://drive.google.com/drive/folders/1COIzQ2HNdegDRl2DSrwbliktSFksdE3m?usp=sharing) | [Canvas](https://canvas.wpi.edu/courses/11859)
 
-* [A Quick Introduction to D3 on Observable](https://observablehq.com/@mitvis/introduction-to-d3)
+* [A Quick Introduction to D3](https://observablehq.com/@mitvis/introduction-to-d3)
 
-* [A javascript course](https://www.codecademy.com/learn/introduction-to-javascript) provided by [codecademy](https://www.codecademy.com/) I took before this one.
+* [A javascript intro course](https://www.codecademy.com/learn/introduction-to-javascript) I took before this one.
 
 * Sunlight Foundation's [Data Visualization Style Guidelines](https://github.com/amycesal/dataviz-style-guide/blob/master/Sunlight-StyleGuide-DataViz.pdf)
 
-* A useful dataset for practising:https://population.un.org/wpp/Download/Standard/Population/
+* [Useful datasets](https://population.un.org/wpp/Download/Standard/Population/) provided by United Nations for playing with data.
