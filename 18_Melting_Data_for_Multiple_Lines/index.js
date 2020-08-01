@@ -15,9 +15,7 @@ const render = data => {
     const yAxisLabel = 'POPULATION';
     const title = 'Population over Time by Region';
 
-    const circleRadius = 8;
-
-    const margin = { top: 120, right: 150, bottom: 80, left: 120 };
+    const margin = { top: 120, right: 360, bottom: 80, left: 120 };
     const innerWidth = width - margin.left - margin.right;
     const innerHeight = height - margin.top - margin.bottom;
 
@@ -106,7 +104,7 @@ const render = data => {
         .text(title);
 
     svg.append('g')
-        .attr('transform', `translate(840, 162)`)
+        .attr('transform', `translate(950, 162)`)
         .call(colorLegend, {
             colorScale,
             circleRadius: 6,

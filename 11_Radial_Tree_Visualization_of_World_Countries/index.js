@@ -59,7 +59,7 @@ d3.json('data.json')
             .enter().append('text')
                 //.attr("dy", "0.32em")
                 // map is a function map a range of numbers to another range
-                .attr('font-size', d => map(+d.depth, 0, 3, 0.9, 0.6) + 'em')
+                .attr('font-size', d => map(+d.depth, 0, 3, 2, 0.6) + 'em')
                 .attr("transform", d => `
                     rotate(${d.x * 180 / Math.PI - 90}) 
                     translate(${d.y},0) 
