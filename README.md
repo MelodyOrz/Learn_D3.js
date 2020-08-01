@@ -6,41 +6,43 @@ Record my progress of learning d3.js following [Curran Kelleher's 13-hour video 
 
 ## Index:
 
-1. [Make a Face](https://melodyorz.github.io/Learn_D3.js/01_Make%20a%20Face/Index.html)
+1. [Make a Face](https://melodyorz.github.io/Learn_D3.js/01_Make_a_Face/Index.html)
 
-2. Make a Barchart
+2. [Bar Chart](https://melodyorz.github.io/Learn_D3.js/02_Bar_Chart/Index.html)
 
-3. Make a Scatter Plot
+3. [Scatter Plot](https://melodyorz.github.io/Learn_D3.js/03_Scatter_Plot/Index.html)
 
-4. Make a Line Chart
+4. [Line Chart](https://melodyorz.github.io/Learn_D3.js/04_Line_Chart/Index.html)
 
-5. Make an Area Chart
+5. [Area Chart](https://melodyorz.github.io/Learn_D3.js/05_Area_Chart/Index.html)
 
-6. General Update Pattern
+6. [General Update Pattern](https://melodyorz.github.io/Learn_D3.js/06_General_Update_Pattern/Index.html)
 
-7. Interaction with Unidirectional Data 
-    * Click to Select
-    * Hover to Select
+7. Interaction with Unidirectional Data Flow
+    * [Click to Select](https://melodyorz.github.io/Learn_D3.js/07_Interaction_with_Unidirectional_Data_Flow/07.1_Click_to_Select/Index.html)
+    * [Hover to Select](https://melodyorz.github.io/Learn_D3.js/07_Interaction_with_Unidirectional_Data_Flow/07.2_Hover_to_Select/Index.html)
 
-8. Make a World Map
+8. [World Map](https://melodyorz.github.io/Learn_D3.js/08_World_Map/Index.html)
 
-9. Make an Interactive World Map
+9. [Interactive World Map](https://melodyorz.github.io/Learn_D3.js/09_Interactive_World_Map/Index.html)
 
-10. Tree Visualization of World Countries
+10. [Tree Visualization of World Countries](https://melodyorz.github.io/Learn_D3.js/10_Tree_Visualization_of_World_Countries/Index.html)
 
-11. Color & Size Legend
+11. [Radial Tree Visualization of World Countries](https://melodyorz.github.io/Learn_D3.js/11_Radial_Tree_Visualization_of_World_Countries/Index.html)
 
-12. Make an Interactive World Map
+12. [Color & Size Legend](https://melodyorz.github.io/Learn_D3.js/12_Color&Size_Legend/Index.html)
 
-13. Add Filtering to the World Map
+13. [Interactive World Map](https://melodyorz.github.io/Learn_D3.js/13_Interactive_World_Map/Index.html)
 
-14. Make a Scatter Plot with Menus 
+14. [Add Filtering to the World Map](https://melodyorz.github.io/Learn_D3.js/14_Add_Filtering_to_the_World_Map/Index.html)
 
-15. Circles on a Map
+15. [Make a Scatter Plot with Menus](https://melodyorz.github.io/Learn_D3.js/15_Scatter_Plot_with_Menus/Index.html) 
 
-16. Line Chart with Multiple Lines
+16. [Circles on a Map](https://melodyorz.github.io/Learn_D3.js/16_Circles_on_a_Map/Index.html)
 
-17. Melting Data for Multiple Lines
+17. [Line Chart with Multiple Lines](https://melodyorz.github.io/Learn_D3.js/17_Line_Chart_with_Multiple_Lines/Index.html)
 
-18. Selecting a Year on a Line Chart
+18. [Melting Data for Multiple Lines](https://melodyorz.github.io/Learn_D3.js/18_Melting_Data_for_Multiple_Lines/Index.html)
+
+19. [Selecting a Year on a Line Chart](https://melodyorz.github.io/Learn_D3.js/19_Selecting_a_Year_on_a_Line_Chart/Index.html)
 
