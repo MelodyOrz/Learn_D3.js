@@ -1,7 +1,8 @@
-Record my progress of learning d3.js following [Curran Kelleher's 13-hour video course](https://youtu.be/_8V5o2UHG0E).
+D3 is a JavaScript library for visualizing data with HTML, SVG, and CSS. You can check the [official documents](https://d3js.org/) to learn about the power of it.
 
-[Full Course Information](https://curran.github.io/dataviz-course-2018/):
-[Syllabus](https://curran.github.io/dataviz-course-2018/syllabus.html) | [Videos](https://www.youtube.com/watch?v=4e3NF8ez95w&list=PL9yYRbwpkykvOXrZumtZWbuaXWHvjD8gi) | [Code](https://vizhub.com/curran) | [Slides](https://drive.google.com/drive/folders/1COIzQ2HNdegDRl2DSrwbliktSFksdE3m?usp=sharing) | [Canvas](https://canvas.wpi.edu/courses/11859)
+This repository is where I record my process of learning d3 following [Curran Kelleher's 13-hour video course](https://youtu.be/_8V5o2UHG0E).
+
+Here's a quick view of what I made during the course and you can click the index links to see the html showcase of each one.
 
 
 ## Index:
@@ -46,3 +47,16 @@ Record my progress of learning d3.js following [Curran Kelleher's 13-hour video 
 
 19. [Selecting a Year on a Line Chart](https://melodyorz.github.io/Learn_D3.js/19_Selecting_a_Year_on_a_Line_Chart/index.html)
 
+<br />
+
+## Useful References:
+* [Full Course Information](https://curran.github.io/dataviz-course-2018/):
+[Syllabus](https://curran.github.io/dataviz-course-2018/syllabus.html) | [Videos](https://www.youtube.com/watch?v=4e3NF8ez95w&list=PL9yYRbwpkykvOXrZumtZWbuaXWHvjD8gi) | [Code](https://vizhub.com/curran) | [Slides](https://drive.google.com/drive/folders/1COIzQ2HNdegDRl2DSrwbliktSFksdE3m?usp=sharing) | [Canvas](https://canvas.wpi.edu/courses/11859)
+
+* [A Quick Introduction to D3 on Observable](https://observablehq.com/@mitvis/introduction-to-d3)
+
+* [A javascript course](https://www.codecademy.com/learn/introduction-to-javascript) provided by [codecademy](https://www.codecademy.com/) I took before this one.
+
+* Sunlight Foundation's [Data Visualization Style Guidelines](https://github.com/amycesal/dataviz-style-guide/blob/master/Sunlight-StyleGuide-DataViz.pdf)
+
+* A useful dataset for practising:https://population.un.org/wpp/Download/Standard/Population/
