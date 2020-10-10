@@ -6,7 +6,7 @@ Here's a quick preview of what I have made during the course and you can click t
 ![Demo](Learn_D3.js_demo.gif)
 
 
-## Index:
+## Index
 
 1. [Make a Face](https://melodyorz.github.io/Learn_D3.js/01_Make_a_Face/index.html)
 
@@ -50,7 +50,7 @@ Here's a quick preview of what I have made during the course and you can click t
 
 <br />
 
-## Useful References:
+## Useful References
 * Curran Kelleher's [Full Course](https://curran.github.io/dataviz-course-2018/) Information:
 [Syllabus](https://curran.github.io/dataviz-course-2018/syllabus.html) | [Videos](https://www.youtube.com/watch?v=4e3NF8ez95w&list=PL9yYRbwpkykvOXrZumtZWbuaXWHvjD8gi) | [Code](https://vizhub.com/curran) | [Slides](https://drive.google.com/drive/folders/1COIzQ2HNdegDRl2DSrwbliktSFksdE3m?usp=sharing) | [Canvas](https://canvas.wpi.edu/courses/11859)
 
